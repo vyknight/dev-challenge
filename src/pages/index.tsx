@@ -20,9 +20,6 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 export default function Home({ projects }) {
     return (
         <main>
-            {/* <Head>
-                <title>Projects</title>
-            </Head> */}
             <h1>Projects</h1>
             <table>
                 <thead>

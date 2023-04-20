@@ -20,12 +20,12 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 export default function Home({ projects }) {
     return (
         <main>
-            <h1>Projects</h1>
+            <h3 className="w-71 h-25 text-xl font-sans font-[600]">Projects</h3>
             <table>
                 <thead>
                     <tr>
-                    <th>Project Name</th>
-                    <th>Project Page URL</th>
+                    <th className="">Project Name</th>
+                    <th className="">Project Page URL</th>
                     </tr>
                 </thead>
                 <tbody>
